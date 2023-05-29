@@ -1,16 +1,13 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Home from './components/Home/Home'
-import About from './components/About/About'
 import Menu from './components/Menu/Menu'
+import Playlist from './components/Playlist/Playlist'
 function App() {
   return (
     <>
-      <div>
-        <Home />
-        <About />
         <Menu />
-      </div>
+        <Playlist />
     </>
   )
 }
